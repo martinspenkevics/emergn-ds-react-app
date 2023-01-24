@@ -1,2 +1,1 @@
-# emergn-ds-react-playground
- 
+# emergn-ds-react-app
