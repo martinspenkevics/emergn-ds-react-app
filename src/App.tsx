@@ -5,7 +5,14 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          gap: "1rem",
+          marginBottom: "1rem",
+        }}
+      >
         <emergn-button
           label={"Click Me " + count}
           onClick={() => setCount(count + 1)}
@@ -22,7 +29,14 @@ function App() {
         />
       </div>
 
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          gap: "1rem",
+          marginBottom: "1rem",
+        }}
+      >
         <emergn-input
           id="text1"
           size="sm"
